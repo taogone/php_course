@@ -1,0 +1,1 @@
+Today is Tuesday. And the future is in mist.\n
