@@ -20,4 +20,10 @@ var_dump($file2->isFile());
 var_dump($file2->isDir());
 var_dump($file2->fread($file2->getSize()));
 $file2->fwrite(rand(1,100));
+
+// SplFileObject는 Class임.
+// new 'Class Name'은 해당 Class에 기반한 Object(instance)를 리턴함.
+// 즉 Object는 Class의 Instance임.
+// isFile, isDir, fread, getsize는 "Method"라고 함.
+// data.txt, data2.txt는 "State"라고 함.
 ?>
